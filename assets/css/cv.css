@@ -1,0 +1,312 @@
+/* General styles */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background-size: auto, contain;
+  background-color: #daebeb;
+  background-repeat: no-repeat;
+  background-position: -232px 232px;
+  background-attachment: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo link */
+.logo-link {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Navbar links */
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Individual navbar link */
+.nav-links li {
+  margin-right: 10px;
+}
+
+.nav-links li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Navbar link hover effect */
+.nav-links li a:hover {
+  color: #ff0000;
+}
+
+/* Progress bar styles */
+.load,
+.load2,
+.load3,
+.load4 {
+  background-color: rgb(241, 241, 241);
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: #000;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.progress,
+.progress2,
+.progress3,
+.progress4 {
+  background-color: #009688 !important;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: #fff !important;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+/* Profile container styles */
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 20px 20px 28px #bebebe, -20px -20px 28px #ffffff;
+}
+
+/* Profile image styles */
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 6px #f9f9f9;
+}
+
+/* Profile details styles */
+.profile-details {
+  flex: 1;
+}
+
+/* Profile name styles */
+.profile-details h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #333;
+}
+
+/* Profile information styles */
+.profile-details p {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+/* Skills container styles */
+.skills-container {
+  margin-top: 30px;
+}
+
+.skills-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-container li {
+  margin-bottom: 10px;
+}
+
+/* Social media icons styles */
+ul.social-media-icons {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+ul.social-media-icons li {
+  margin-right: 10px;
+}
+
+/* Content section styles */
+.content-section {
+  margin-bottom: 30px;
+}
+
+.content-section h2 {
+  margin-bottom: 10px;
+  color: #009688;
+}
+
+.content-section h3 {
+  margin-bottom: 5px;
+}
+
+/* Horizontal line styles */
+hr {
+  margin-top: 30px;
+  border: -1px solid gray;
+}
+/* Container untuk kedua bagian */
+.container {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles untuk bagian kiri (left) */
+.left {
+  flex: 1;
+}
+
+/* Styles untuk bagian kanan (right) */
+.right {
+  flex: 1;
+}
+
+/* Styles untuk bagian kiri dan kanan */
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 20px 20px 28px #bebebe, -20px -20px 28px #ffffff;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 0 6px #f9f9f9;
+}
+
+.profile-details h1 {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #333;
+}
+
+.profile-details p {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.skills-container {
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 20px 20px 28px #bebebe, -20px -20px 28px #ffffff;
+}
+
+.skills-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-container li {
+  margin-bottom: 10px;
+}
+
+.social-media-icons {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-media-icons li {
+  margin-right: 10px;
+}
+
+/* Additional styles untuk bagian kanan */
+.study-container {
+  margin-top: 3px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 20px 20px 28px #bebebe, -20px -20px 28px #ffffff;
+}
+
+.padding {
+  padding: 5px;
+}
+
+.experiance-container {
+  margin-bottom: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 20px 20px 28px #bebebe, -20px -20px 28px #ffffff;
+}
+
+.bottom {
+  padding: 16px;
+}
+
+.content1 h2,
+.content2 h2,
+.content3 h2 {
+  margin-bottom: 5px;
+}
+
+.content1 p,
+.content2 p,
+.content3 p {
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-top: 30px;
+  border: -1px solid gray;
+}
+
+.light {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: radial-gradient(
+    circle at var(--x) var(--y),
+    transparent 10%,
+    rgba(0, 0, 0, 0.97) 20%
+  );
+}
